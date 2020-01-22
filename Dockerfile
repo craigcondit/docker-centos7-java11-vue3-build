@@ -6,7 +6,7 @@ ENV PATH=/root/.npm-packages/bin:/opt/node/bin:/opt/java/jdk11/bin:/usr/local/sb
 RUN \	
 	mkdir -p /root/.npm-packages/bin && \
 	mkdir -p /download && \
-	curl -L -o /download/node.tar.xz https://nodejs.org/dist/v10.13.0/node-v10.13.0-linux-x64.tar.xz && \
+	curl -L -o /download/node.tar.xz https://nodejs.org/dist/v10.18.1/node-v10.18.1-linux-x64.tar.xz && \
 	mkdir -p /opt && \
 	cd opt && \
 	tar xvf /download/node.tar.xz && \
