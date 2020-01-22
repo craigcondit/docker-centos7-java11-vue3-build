@@ -13,5 +13,5 @@ RUN \
 	mv node* node && \
 	chown -R root:root node && \
 	echo 'prefix=/root/.npm-packages' > /root/.npmrc && \
-	npm install -g --force @vue/cli jslint json2yaml npm vue-cli yaml-lint yarn && \
+	npm install -g @vue/cli jslint json2yaml npm yaml-lint yarn && \
 	rm -rf /download
